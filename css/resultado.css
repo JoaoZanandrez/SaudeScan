@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f9fb;
+    color: #183b4a;
+}
+
+/* Cabeçalho */
+
+header {
+    padding: 20px;
+}
+
+.btn-voltar {
+    width: 90px;
+    display: block;
+    padding: 10px;
+    background-color: #1976a3;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(25, 118, 163, 0.15);
+}
+
+header a {
+    color: #1976a3;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+header h1 {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color: #1976a3;
+}
+
+/* Conteúdo principal */
+
+main {
+    padding: 0 20px 100px;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+section h2 {
+    margin-bottom: 14px;
+    font-size: 1.25rem;
+}
+
+/* Imagem */
+
+.imagem-resultado > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 220px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 3px 10px rgba(24, 59, 74, 0.06);
+}
+
+.imagem-resultado p {
+    color: #607d8b;
+}
+
+/* Resultado principal */
+
+.resultado-principal {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 3px 10px rgba(24, 59, 74, 0.06);
+}
+
+.resultado-principal > p {
+    margin-bottom: 10px;
+    color: #2a9d8f;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.resultado-principal h2 {
+    margin-bottom: 14px;
+}
+
+.resultado-principal div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.resultado-principal span {
+    padding: 8px 12px;
+    background-color: #e8f5f6;
+    color: #1976a3;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+/* Possibilidades */
+
+.possibilidades > p {
+    margin-bottom: 16px;
+    color: #607d8b;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.possibilidades > div {
+    background-color: #ffffff;
+    padding: 18px;
+    margin-bottom: 12px;
+    border-radius: 16px;
+    box-shadow: 0 3px 10px rgba(24, 59, 74, 0.06);
+}
+
+.possibilidades h3 {
+    margin-bottom: 8px;
+    color: #1976a3;
+    font-size: 1rem;
+}
+
+.possibilidades div p {
+    color: #607d8b;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+/* Nível de atenção */
+
+.nivel-atencao > div {
+    padding: 20px;
+    background-color: #fff7e8;
+    border-radius: 18px;
+}
+
+.nivel-atencao span {
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 8px 14px;
+    background-color: #e9a23b;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nivel-atencao p {
+    color: #607d8b;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Cuidados */
+
+.cuidados-resultado > div {
+    padding: 16px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 3px 10px rgba(24, 59, 74, 0.05);
+}
+
+.cuidados-resultado p {
+    color: #607d8b;
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+
+.cuidados-resultado a,
+.alerta-resultado a {
+    display: block;
+    margin-top: 14px;
+    padding: 14px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Botão cuidados */
+
+.cuidados-resultado a {
+    background-color: #2a9d8f;
+    color: #ffffff;
+}
+
+/* Alertas */
+
+.alerta-resultado {
+    padding: 20px;
+    background-color: #fff4f2;
+    border-radius: 18px;
+}
+
+.alerta-resultado h2 {
+    color: #d95c5c;
+}
+
+.alerta-resultado p {
+    color: #607d8b;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.alerta-resultado a {
+    background-color: #d95c5c;
+    color: #ffffff;
+}
+
+/* Aviso */
+
+.aviso {
+    padding: 18px;
+    background-color: #eef4f6;
+    border-left: 4px solid #1976a3;
+    border-radius: 12px;
+}
+
+.aviso p {
+    color: #607d8b;
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
