@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f9fb;
+    color: #183b4a;
+}
+
+/* Cabeçalho */
+
+header {
+    padding: 20px;
+}
+
+header > a {
+    display: inline-block;
+    padding: 14px 26px;
+    background-color: #1967a3;
+    color: #ffffff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+header h1 {
+    margin-top: 24px;
+    font-size: 1.7rem;
+    color: #1976a3;
+}
+
+header p {
+    margin-top: 8px;
+    color: #607d8b;
+    line-height: 1.5;
+}
+
+/* Conteúdo */
+
+main {
+    padding: 0 20px 100px;
+}
+
+section {
+    margin-bottom: 28px;
+}
+
+/* Introdução */
+
+.introducao {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 3px 10px rgba(24, 59, 74, 0.06);
+}
+
+.introducao h2 {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    color: #183b4a;
+}
+
+.introducao p {
+    color: #607d8b;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Cards de alerta */
+
+.alerta-card {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    padding: 18px;
+    margin-bottom: 12px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    border-left: 4px solid #d95c5c;
+    box-shadow: 0 3px 10px rgba(24, 59, 74, 0.06);
+}
+
+.alerta-card > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 38px;
+    height: 38px;
+    background-color: #fff0ee;
+    color: #d95c5c;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.alerta-card h2 {
+    margin-bottom: 6px;
+    font-size: 1rem;
+    color: #183b4a;
+}
+
+.alerta-card p {
+    color: #607d8b;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Atendimento */
+
+.atendimento {
+    padding: 20px;
+    background-color: #fff4f2;
+    border-radius: 18px;
+    border-left: 4px solid #d95c5c;
+}
+
+.atendimento h2 {
+    margin-bottom: 10px;
+    color: #d95c5c;
+    font-size: 1.2rem;
+}
+
+.atendimento p {
+    color: #607d8b;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Aviso */
+
+.aviso {
+    padding: 18px;
+    background-color: #eef4f6;
+    border-radius: 12px;
+}
+
+.aviso p {
+    color: #607d8b;
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
+
+/* Navegação */
+
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 10px;
+    background-color: #ffffff;
+    box-shadow: 0 -4px 12px rgba(24, 59, 74, 0.08);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav a {
+    color: #607d8b;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
