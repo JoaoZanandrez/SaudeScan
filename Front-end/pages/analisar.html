@@ -18,11 +18,14 @@
                 <p>Adiciona uma foto da lesão</p>
                 <div>
                     <p>Imagem da lesão</p>
+                    <img id="preview" src="" alt="Pré-visualização da lesão">
                 </div>
 
+                <input type="file" id="imagem" accept="image/*">
+
                 <div class="boteos-imagem">
-                    <a href="#"  class="btn-imagem">Tirar foto</a>
-                    <a href="#"  class="btn-imagem">Escolher imagem</a>
+                    <a href="#"  class="btn-imagem" class="tirar-foto">Tirar foto</a>
+                    <a href="#"  class="btn-imagem" class="escolher-imagem">Escolher imagem</a>
                 </div>
             </div>
         </section>
@@ -46,5 +49,7 @@
             <a href="sobre.html">Sobre</a>
         </ul>
     </nav>
+
+    <script src="../js/analisar.js"></script>
 </body>
 </html>
